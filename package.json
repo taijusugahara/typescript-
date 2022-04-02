@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/taijusugahara/typescript-#readme",
   "dependencies": {
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   }
 }
