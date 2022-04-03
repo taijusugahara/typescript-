@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "ts-node-dev --respawn",
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/taijusugahara/typescript-#readme",
   "dependencies": {
-
-    "ts-node": "^8.6.2",
     "@types/node": "^17.0.23",
+    "axios": "^0.26.1",
+    "ts-node": "^8.6.2",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5"
   }
