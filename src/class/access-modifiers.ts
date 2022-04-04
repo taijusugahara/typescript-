@@ -29,4 +29,5 @@ let taro = new Person("Taro",20,"Canada");
 let hanako = new Person("Hanako",17,"UK");
 console.log(taro.name)
 // console.log(taro.age)
+console.log(taro)
 console.log(taro.profile())//methodからはprivateのものも取得できる
