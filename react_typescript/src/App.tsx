@@ -1,4 +1,6 @@
 import React from 'react';
+// import Counter from './Counter'
+import CounterReducer from './CounterReducer ';
 
 interface AppProps{
   message?:string;
@@ -6,7 +8,8 @@ interface AppProps{
 const App:React.FC<AppProps> = ({message}) => {
   return (
     <div>
-      {message}
+      {/* <Counter /> */}
+      <CounterReducer />
     </div>
   );
 }
